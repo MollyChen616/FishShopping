@@ -2,15 +2,68 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
+			"style": {"navigationBarTitleText" : "有鱼严选"}
+		},
+		{
+			"path": "pages/goodsInfo/goodsInfo",
+			"style": {"navigationBarTitleText" : "商品详情"}
+
+		},
+		{
+			  "path" : "pages/release/release",
+			"style" : {
+			    "navigationBarTitleText" : "发稿"
 			}
-		}
+		},
+		{
+            "path" : "pages/myTag/myTag",
+            "style" : {
+                "navigationBarTitleText" : "标签"
+            }
+        },
+        {
+            "path" : "pages/invate/invate",
+            "style" : {
+                "navigationBarTitleText" : "分享"
+            }
+        },
+        {
+            "path" : "pages/myInfo/myInfo",
+            "style" : {
+                "navigationBarTitleText" : "我的"
+            }
+        }
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+		"color" : "#5F646E",
+		"selectedColor" : "#FF0036",
+		
+		"list": [{
+		    "pagePath": "pages/index/index",
+		    "text": "首页"
+		},{
+		    "pagePath": "pages/myTag/myTag",
+		    "text": "标签"
+		},
+		 {
+		    "pagePath" : "pages/release/release",
+		    "iconPath" : "static/release.png",
+		    "selectedIconPath" : "static/release.png",
+		    "text" : ""
+		},
+		{
+		    "pagePath": "pages/invate/invate",
+		    "text": "邀请"
+		}, {
+		    "pagePath": "pages/myInfo/myInfo",
+		   "text": "我的"
+		}]}
+		
+		
 	}
-}

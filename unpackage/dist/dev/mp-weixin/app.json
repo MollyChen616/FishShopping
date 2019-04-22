@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myTag/myTag",
+    "pages/invate/invate",
+    "pages/myInfo/myInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#5F646E",
+    "selectedColor": "#FF0036",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myTag/myTag",
+        "text": "标签"
+      },
+      {
+        "pagePath": "pages/invate/invate",
+        "text": "邀请"
+      },
+      {
+        "pagePath": "pages/myInfo/myInfo",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

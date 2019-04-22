@@ -75,8 +75,14 @@
       }
     },
     "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
     "uni-app": {
-      "compilerVersion": "1.8.2",
+      "compilerVersion": "1.9.1",
       "control": "webview"
     }
   }
